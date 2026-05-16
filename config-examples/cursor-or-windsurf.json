@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "techarea-workspace": {
+      "command": "node",
+      "args": ["/path/to/techarea-workspace/src/index.js"],
+      "env": {
+        "PLANE_BASE_URL": "https://workspace.techarea.co.id",
+        "PLANE_WORKSPACE": "techarea-indonesia",
+        "PLANE_PROJECT_ID": "YOUR_PROJECT_ID_HERE",
+        "PLANE_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    }
+  }
+}

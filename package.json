@@ -1,0 +1,17 @@
+{
+  "name": "techarea-workspace",
+  "version": "1.0.0",
+  "description": "MCP Server for Techarea Plane workspace",
+  "type": "module",
+  "bin": {
+    "techarea-workspace": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
