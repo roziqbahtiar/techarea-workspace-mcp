@@ -27,7 +27,32 @@ cd techarea-workspace-mcp
 npm install
 ```
 
-### 2. Dapatkan API Key
+### 2. Cari path folder hasil clone
+
+Setelah clone, kamu perlu tahu lokasi lengkap folder `techarea-workspace-mcp` di komputermu. Path ini yang nanti diisi di config.
+
+**Mac / Linux** — jalankan di terminal:
+```bash
+cd techarea-workspace-mcp && pwd
+```
+Contoh output: `/Users/namauser/Documents/techarea-workspace-mcp`
+
+**Windows** — jalankan di terminal:
+```bash
+cd techarea-workspace-mcp && cd
+```
+Contoh output: `C:\Users\namauser\Documents\techarea-workspace-mcp`
+
+Catat path ini, nanti dipakai di langkah 3. Ganti `/PATH_KE_FOLDER/techarea-workspace-mcp` dengan path hasil `pwd` / `cd` di atas.
+
+**Contoh nyata di config:**
+```json
+"args": ["/Users/namauser/Documents/techarea-workspace-mcp/src/index.js"]
+```
+
+---
+
+### 3. Dapatkan API Key
 
 Buat API key masing-masing di Plane:
 ```
